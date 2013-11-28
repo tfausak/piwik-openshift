@@ -1,12 +1,12 @@
-# Piwik
+# piwik-openshift
 
 [Piwik][1] running on [OpenShift][2] for [taylor.fausak.me][3].
 
 ## Setup
 
 ```sh
-git clone https://github.com/tfausak/piwik
-cd piwik
+git clone https://github.com/tfausak/piwik-openshift.git
+cd piwik-openshift
 vagrant up
 vagrant ssh
 ```
