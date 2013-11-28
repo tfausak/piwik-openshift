@@ -5,8 +5,8 @@
 ## Setup
 
 ```sh
-git clone ...
-cd ...
+git clone https://github.com/tfausak/piwik
+cd piwik
 vagrant up
 vagrant ssh
 ```
@@ -18,6 +18,7 @@ rhc setup
 ## Deploy
 
 ```sh
+cd /vagrant
 git remote add rhc ssh://5294b15e5004462b480001e4@piwik-fausak.rhcloud.com/~/git/piwik.git
 git push rhc master
 ```
